@@ -1,0 +1,43 @@
+@media (max-width:1212px) {
+    .fixed-width {
+        width: 1059px;
+       
+    }
+}
+@media (max-width:1181px) {
+    .fixed-width {
+        width: 1056px;
+    }
+}
+@media (max-width:1178px) {
+    .fixed-width {
+        width: 1008px;
+    }
+    .left {
+        width: 25%;
+        
+    }
+    .right {
+        width: 60%;
+       
+    }
+}
+@media (max-width:1136px) {
+    .fixed-width {
+        width: 972px;
+    }
+}
+@media (max-width:1094px) {
+    .fixed-width {
+        width: 958px;
+    }
+    .about-bio {
+        width: 79%;
+        margin-left: 210px;
+    }
+}
+@media (max-width:1088px) {
+    .fixed-width {
+        width: 955px;
+    }
+}

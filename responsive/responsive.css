@@ -1,43 +1,101 @@
-@media (max-width:1212px) {
-    .fixed-width {
-        width: 1059px;
+@media ( max-width: 1520px ) {
+
+
+}
+
+@media ( max-width: 1020px ) {
+    .logo {
+        width: 100%;
+        padding: 4px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .menubar ul {
+        text-align: center;
+    }
+    .menubar ul li a {
+        border-right: none;
+
+    }
+    .iconii {
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+        height: auto;
+        padding: 4px;
+        /* overflow: hidden; */
+    }
+    .logo img {
+     
+     margin-left: 228px;
        
     }
+    .text-start {
+        text-align: center !important;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    
 }
-@media (max-width:1181px) {
-    .fixed-width {
-        width: 1056px;
+
+
+
+@media ( max-width: 768px ) {
+
+    .menubar ul li a {
+
+        padding: 0px 9px;
+
     }
-}
-@media (max-width:1178px) {
-    .fixed-width {
-        width: 1008px;
+    .slider-content h2 {
+        font-size: 27px;
     }
-    .left {
-        width: 25%;
-        
+    .iconii {
+        text-align: center;
     }
-    .right {
-        width: 60%;
-       
-    }
-}
-@media (max-width:1136px) {
-    .fixed-width {
-        width: 972px;
-    }
-}
-@media (max-width:1094px) {
-    .fixed-width {
-        width: 958px;
-    }
-    .about-bio {
-        width: 79%;
-        margin-left: 210px;
+    .text-start {
+
+        text-align: center !important;
     }
 }
-@media (max-width:1088px) {
-    .fixed-width {
-        width: 955px;
+
+
+@media ( max-width: 576px ) {
+    .menubar ul li a {
+        padding: 0px 2px;
+        text-align: center;
+    }
+    .slider-content h2 {
+        font-size: 20px;
+    }
+    .iconii {
+        text-align: center;
+    }
+    .text-start {
+
+        text-align: center !important;
+    }
+
+}
+
+
+@media ( max-width: 424px ) {
+
+    .menubar ul li a {
+        padding: 0px 1px;
+        text-align: center;
+        font-size: 14px;
+
+    }
+    .slider-content h2 {
+        font-size: 15px;
+    }
+    .slider-content h5 {
+        font-size: 17px;
+    }
+    .text-start {
+        text-align: center ;
     }
 }

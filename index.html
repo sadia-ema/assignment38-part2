@@ -1,86 +1,183 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./responsive/responsive.css">
-</head>
-<body>
-    <div class="header clearfix">
-       <div class="fixed-width">
-        <div class="header-logo left">
-            <img src="./img/google-logo-png-2015-14.png" alt="">
-        </div>
-        <div class="header-menu right">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">PRODUCT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-       </div>
-    </div>
-   <div class="banner">
-       <div class="banner-text">
-           <h3>Welcome to our website</h3>
-           <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nam!</h1>
-       </div>
-   </div>
-   <div class="about-section clearfix">
-       <div class="fixed-width">
-           <div class="about-logo left">
-               <img src="./img/team01.jpg" alt="">
-           </div>
-           <div class="about-bio">
-               <h2>About me</h2>
-               <h4>My life style is very simple</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reiciendis! Eaque asperiores pariatur architecto debitis, quasi maxime ea voluptate, quae optio aliquam earum, reiciendis consectetur quibusdam officia. Aliquid, itaque ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate quia mollitia eaque qui suscipit ut labore quam. Sunt, mollitia fuga est magni quas voluptates corrupti quod veniam neque nostrum.</p>
-           </div>
-       </div>
-   </div>
-   <div class="service clearfix">
-       <div class="fixed-width">
-           <div class="service-content left">
-               <span><i class="fab fa-accessible-icon"></i></span>
-               <h2>Web design</h2>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, quisquam!</p>
-           </div>
-           <div class="service-content left">
-               <span><i class="fab fa-accessible-icon"></i></span>
-               <h2>Web design</h2>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, quisquam!</p>
-           </div>
-           <div class="service-content left">
-               <span><i class="fab fa-accessible-icon"></i></span>
-               <h2>Web design</h2>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, quisquam!</p>
-           </div>
-       </div>
-   </div>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-   <div class="footer clearfix">
-  <div class="fixed-width">
-      <div class="write">
-      <p>&copy; All Rights Reserved By Sadia Ema</p>
-  </div>
-  <div class="icon">
-    <ul>
-        <li><i class="fab fa-facebook"></i></li>
-        <li><i class="fab fa-youtube"></i></li>
-        <li><i class="fab fa-twitter"></i></li>
-        <li><i class="fab fa-whatsapp"></i></li>
-       
-    </ul>
-  </div>
-  </div>
- </div>
-    
-</body>
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/responsive.style.css">
+  </head>
+  <body>
+   
+
+<header class="headder ">
+       <div class="container">
+             <div class="row">
+                  <div class="col-lg-4">
+                      <div class="logo">
+                        <img src="./img/google-logo-png-2015-14.png" alt="">
+                      </div>
+                  </div>
+                  <div class="col-lg-8">
+                       <div class="menubar">
+                          <ul>
+                            <li><a href="#"> Home</a></li>
+                            <li><a href="#"> About</a></li>
+                            <li><a href="#"> Service</a></li>
+                            <li><a href="#"> Blog</a></li>
+                            <li><a href="#"> Product</a></li>
+                            <li><a href="#"> Contact</a></li>
+                          </ul>
+                       </div>
+                  </div>
+             </div>
+       </div>
+</header>
+<!-- slider -->
+<section class="slider-section d-flex text-center ">
+       <div class="container-fluid">
+            <div class="row">
+                 <div class="col-lg-12">
+                     <div class="slider-content d-flex flex-column justify-content-center align-items-center ">
+                        <h5> wellcome to our website</h5>
+                        <h2> Lorem ipsum dolor sit amet consectetur.</h2>
+                     </div>
+                 </div>
+            </div>
+       </div>
+</section>
+<!-- about-section -->
+
+<section class=" about-section py-5">
+      <div class="container">
+           <div class="row py-5">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-4">
+                  <div class="about-img">
+                      <img src="./team01.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                   <div class="about-contact">
+                       <h2>About me</h2>
+                       <h4> My life style is very simple</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iste. Libero veniam ut aliquid dicta dolorum autem nobis natus atque perspiciatis iure, repudiandae tempora vel!
+                        sit amet consectetur adipisicing elit. Harum, iste. Libero veniam ut aliquid dicta dolorum autem nobis natus atque perspiciatis iure, repudiandae tempora vel! </p>
+                   </div>
+               </div>
+               <div class="col-lg-1"></div>
+           </div>
+      </div>
+</section>
+<!-- sector -->
+<section class="sector-section bgy py-5">
+      <div class="container">
+           <div class="row py-5">
+
+                <div class="col-lg-4 mb-3">
+                    <div class="sector-content">
+                        <div class="sector-icon">
+                          <i class="fas fa-wheelchair"></i>
+                        </div>
+                        <div class="sector-contenet-write">
+                          <h3> web disign </h3>
+                          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo maxime consequuntur illum facere accusantium incidunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="sector-content">
+                        <div class="sector-icon">
+                          <i class="fas fa-wheelchair"></i>
+                        </div>
+                        <div class="sector-contenet-write">
+                          <h3> web disign </h3>
+                          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo maxime consequuntur illum facere accusantium incidunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="sector-content">
+                        <div class="sector-icon">
+                          <i class="fas fa-wheelchair"></i>
+                        </div>
+                        <div class="sector-contenet-write">
+                          <h3> web disign </h3>
+                          <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo maxime consequuntur illum facere accusantium incidunt?</p>
+                        </div>
+                    </div>
+                </div>
+
+           </div>
+      </div>
+</section>
+<!-- footer -->
+<footer class="footer py-4">
+    <div class="container">
+          <div class="row ">
+               <div class="col-lg-6 ">
+                   <div class="ff text-start">
+                    <p>@All right reserved by LFWF Aceademy</p>
+                   </div>
+               </div>
+               <div class="col-lg-6 text-end">
+                    <div class="iconii">
+                        <ul>
+                          <li><a href="#"> <i class="fab fa-facebook "></i></a></li>
+                          <li><a href="#"> <i class="fab fa-twitter "></i></a></li>
+                          <li><a href="#"> <i class="fab fa-google "></i></a></li>
+                          <li><a href="#"> <i class="fab fa-youtube "></i></a></li>
+                        </ul>
+                    </div>
+               </div>
+          </div>
+    </div>
+</footer>
+
+
+
+ 
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+  </body>
 </html>
